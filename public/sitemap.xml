@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://andrewhj.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/blog/</loc>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/blog/first/</loc>
+        <lastmod>2022-10-07</lastmod>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/blog/second/</loc>
+        <lastmod>2022-10-08</lastmod>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/lisp/</loc>
+        <lastmod>2022-10-08</lastmod>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/tags/lisp/</loc>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/tags/programming-languages/</loc>
+    </url>
+    <url>
+        <loc>https://andrewhj.github.io/tags/test/</loc>
+    </url>
+</urlset>

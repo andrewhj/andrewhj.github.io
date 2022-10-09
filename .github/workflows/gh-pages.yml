@@ -1,0 +1,19 @@
+name: deploy zola site to github pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3.0.0
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@0.16.1
+        env:
+          PAGES_BRANCH: gh-pages
+          # provide personal access token
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
